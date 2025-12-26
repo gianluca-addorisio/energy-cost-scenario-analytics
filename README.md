@@ -1,50 +1,33 @@
-## Project Overview
+# Energy Cost Scenario Analytics
+Scenario-based energy cost and risk analytics for corporate decision-making.
 
-This project develops a scenario-based analytics framework to assess how energy price uncertainty translates into corporate cost risk.
-
-Rather than focusing on point forecasts, the framework is designed to:
-- construct **plausible energy price scenarios**,
-- quantify their **impact on operating costs**, and
-- summarize **risk and stress outcomes** in a form suitable for decision-making.
-
-The project targets use cases such as:
-- budgeting and planning under uncertainty,
-- sensitivity analysis to energy shocks,
-- scenario-based risk assessment for energy-intensive firms.
+This project builds a transparent and reproducible analytics framework to translate
+energy price uncertainty into cost and risk insights for energy-exposed firms.
 
 ---
 
-## Conceptual Approach
+## What this project does
 
-The core idea is simple:
+- Constructs **plausible energy price scenarios** (baseline, adverse, upside)
+- Quantifies their **impact on operating costs**
+- Summarizes **risk and stress outcomes** for decision support
 
-> Firms do not need a single “correct” energy price forecast.  
-> They need to understand how different plausible price paths affect costs and risk.
-
-Accordingly, the workflow is organized around:
-1. clean and interpretable data,
-2. scenario construction (baseline, adverse, upside),
-3. cost impact modeling,
-4. uncertainty and stress analysis.
-
-Model complexity is intentionally kept moderate to ensure transparency and interpretability.
+The focus is on interpretability and usability rather than point forecasting
+or complex black-box models.
 
 ---
 
-## Project Roadmap
+## Project structure
 
-The project is developed incrementally:
-
-- **Phase 1** – Data ingestion and cleaning  
-- **Phase 2** – Scenario generation and visualization  
-- **Phase 3** – Cost impact modeling  
-- **Phase 4** – Optional risk metrics (stress outcomes, tail analysis)
-
-Details are documented in `docs/ROADMAP.md`.
+- `notebooks/00_project_overview.ipynb` – conceptual overview and objectives  
+- `notebooks/01_data_pipeline.ipynb` – data ingestion and cleaning  
+- `notebooks/02_scenarios.ipynb` – scenario generation and visualization  
+- `notebooks/03_cost_impact_model.ipynb` – cost impact modeling  
+- `notebooks/04_risk_metrics_optional.ipynb` – optional risk metrics  
 
 ---
 
-## Intended Audience
+## Intended use
 
 This project is designed for:
 - analytics and decision-support teams,
@@ -55,7 +38,5 @@ It is not intended as a trading or high-frequency modeling system.
 
 ---
 
-# Energy Cost Scenario Analytics
-Scenario-based energy cost and risk analytics for corporate decision-making.
-
 Status: work in progress.
+
