@@ -1,5 +1,3 @@
----
-
 ## Project Overview
 
 This project develops a scenario-based analytics framework to assess how energy price uncertainty translates into corporate cost risk.
@@ -56,3 +54,8 @@ This project is designed for:
 It is not intended as a trading or high-frequency modeling system.
 
 ---
+
+# Energy Cost Scenario Analytics
+Scenario-based energy cost and risk analytics for corporate decision-making.
+
+Status: work in progress.
